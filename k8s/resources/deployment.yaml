@@ -28,4 +28,4 @@ spec:
               memory: 100Mi
             limits:
               cpu: 300m
-              memory: 200Mipengbai/docker-supermario 
+              memory: 200Mi
