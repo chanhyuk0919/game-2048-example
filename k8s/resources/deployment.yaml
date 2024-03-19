@@ -18,10 +18,10 @@ spec:
       containers:
         - name: backend
           # Replace with your docker registry info
-          image: pengbai/docker-supermario/repo_0d7110a1a768
+          image: pengbai/docker-supermario
           ports:
             - name: http
-              containerPort: 8080
+              containerPort: 80
           resources:
             requests:
               cpu: 200m
